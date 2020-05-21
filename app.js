@@ -7,7 +7,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static('public'));
 app.set('view engine', 'ejs');
 
-mongoose.connect('mongodb+srv://v_ob:abcd123456@cluster0-rjkdy.mongodb.net/wishlistDB', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb+srv://v_ob:password@cluster0-rjkdy.mongodb.net/wishlistDB', { useNewUrlParser: true, useUnifiedTopology: true });
 
 
 const itemSchema = {
